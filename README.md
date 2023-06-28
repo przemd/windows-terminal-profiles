@@ -4,12 +4,6 @@ Azure Environment Switcher provides an easy way to switch between different Azur
 
 This project customizes the Windows Terminal configuration to create separate profiles for each Azure environment. When a new terminal tab is opened with one of these profiles, the terminal automatically logs into the specified Azure environment.
 
-## Table of Contents
-
-- [Requirements](#requirements)
-- [Implementation](#implementation)
-- [Usage](#usage)
-
 ## Requirements
 
 This project has the following prerequisites:
