@@ -31,3 +31,7 @@ This project has the following prerequisites:
 4. **Edit the Windows Terminal Settings:**
    Open the settings of Windows Terminal (using the drop-down menu and selecting 'Settings'). This will open the settings.json file in your default text editor.
 In the profiles section, add a new profile for each environment. Replace powershell_path with the path to your PowerShell executable and {generated-guid} with a unique GUID. Example in settings.json file in this repository.
+Remember to replace {generated-guid} with a unique GUID for each profile and customize the color schemes to your liking. You can generate new GUIDs using online services or tools available in your development environment.
+
+5. **Optional: Set Up Color Schemes:**
+   If you want to visually distinguish between your different environments, you can create a color scheme for each environment. Add these schemes in the schemes section of settings.json and reference them in the colorScheme property of the corresponding profiles.
