@@ -1,0 +1,15 @@
+"profiles": {
+        "defaults": {},
+        "list": [
+            {
+                "commandline": "\"powershell_path\" -NoProfile -ExecutionPolicy Bypass -NoExit -Command Connect-AzureDev",
+                "guid": "{generated-guid}",
+                "hidden": false,
+                "name": "Development"
+            },
+            {
+                "commandline": "\"powershell_path\" -NoProfile -ExecutionPolicy Bypass -NoExit -Command Connect-AzureStage",
+                "guid": "{generated-guid}",
+                "hidden": false,
+                "name": "Staging"
+            }
